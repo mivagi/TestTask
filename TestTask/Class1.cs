@@ -50,8 +50,7 @@ namespace TestTask
 /*Вопрос №3:
  * Есть таблицы Category(с полями id и name) и Product(с полями id и name)
  * Для связи многие ко многим надо создать дополнительную 
- * таблицу CategoriesAndProducts с полями id, categoryId и productId
- * (поле id необходимо для того что бы поля categoryId и productId можно было делать равными null
+ * таблицу CategoriesAndProducts с полями categoryId и productId
  * И тогда запрос будет выглядеть так:
  * SELECT Product.name, Category.name FROM Product
  * JOIN CategoriesAndProducts
